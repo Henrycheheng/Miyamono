@@ -1,11 +1,15 @@
 import React from 'react'
-import Counter from './components/Counter'
+import { TextField, Select, Radio } from '@/components/forms/index'
 
 
 const App: React.FC = () => {
   return (
     <>
-      <Counter></Counter>
+      {/* Modules */}
+      <TextField></TextField>
+      <Select></Select>
+      <Radio></Radio>
+      {/* <Module></Module> */}
     </>
   )
 }
