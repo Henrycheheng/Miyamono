@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
     "target": "ESNext",
-    "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "allowJs": false,
     "skipLibCheck": false,
@@ -14,8 +14,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx",
-    "jsxImportSource": "@emotion/react"
+    "jsx": "react",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
   "include": ["./src"]
 }

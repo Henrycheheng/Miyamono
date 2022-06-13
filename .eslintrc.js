@@ -5,26 +5,31 @@ module.exports = {
     node: true,
     es2021: true,
   },
-  parser: 'vue-eslint-parser',
+  // 解析器
+  parser: '@typescript-eslint/parser',
+  // 扩展
   extends: [
     'eslint:recommended',
-    'plugin:vue/vue3-recommended',
-    'plugin:@typescript-eslint/recommended',
+    'plugin:react-hooks/recommended',
     'plugin:prettier/recommended',
-    // eslint-config-prettier 的缩写
+    "plugin:@typescript-eslint/recommended",
     'prettier',
+    'plugin:prettier/recommended',
+    "react-app"
   ],
   parserOptions: {
-    ecmaVersion: 12,
+    ecmaVersion: 13,
     parser: '@typescript-eslint/parser',
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
     },
   },
-  // eslint-plugin-vue @typescript-eslint/eslint-plugin eslint-plugin-prettier的缩写
-  plugins: ['vue', '@typescript-eslint', 'prettier'],
+  // 插件
+  plugins: ['react', '@typescript-eslint', "react-hooks",'prettier'],
+  // 规则
   rules: {
+    "react-hooks/rules-of-hooks": "error",
     '@typescript-eslint/ban-ts-ignore': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
@@ -109,9 +114,19 @@ module.exports = {
     // 强制函数定义中最多允许的参数数量
     'max-params': ['warn', 3],
     // 强制每一行中所允许的最大语句数量
-    'max-statements-per-line': ['warn', { max: 1 }],
+    'max-statements-per-line': [
+      'warn',
+      {
+        max: 1,
+      },
+    ],
     // 要求方法链中每个调用都有一个换行符
-    'newline-per-chained-call': ['warn', { ignoreChainWithDepth: 3 }],
+    'newline-per-chained-call': [
+      'warn',
+      {
+        ignoreChainWithDepth: 3,
+      },
+    ],
     // 禁止 if 作为唯一的语句出现在 else 语句中
     'no-lonely-if': 'warn',
     // 禁止空格和 tab 的混合缩进
