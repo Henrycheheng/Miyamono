@@ -1,15 +1,14 @@
 import React from 'react'
-import { TextField, Select, Radio } from '@/components/forms/index'
+import ClickInside from './components/ClickInside/ClickInside';
+import { DataList } from './components/DataList/DataList';
+import TableListRender from './components/TableList/TableList';
 
-
-const App: React.FC = () => {
+const App: React.FC = (data) => {
   return (
     <>
-      {/* Modules */}
-      <TextField></TextField>
-      <Select></Select>
-      <Radio></Radio>
-      {/* <Module></Module> */}
+      <DataList data={data} isOrdered />
+      {/* <ClickInside onClickInsilde={() => console.log('点击了内部')}></ClickInside>
+      <TableListRender></TableListRender> */}
     </>
   )
 }

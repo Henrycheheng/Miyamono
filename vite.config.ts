@@ -17,7 +17,7 @@ export default defineConfig({
   ],
   // 引用别名
   resolve: {
-    extensions: ['js', 'ts'],
+    extensions: ['*'],
     alias: {
       '@': path.resolve(__dirname, 'src'),
       '@assets': path.resolve(__dirname, 'src/assets'),
