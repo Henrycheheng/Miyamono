@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import viteCompression from 'vite-plugin-compression'
 import path from 'path'
+/** @type {import('vite').UserConfig} */
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -17,7 +18,7 @@ export default defineConfig({
   ],
   // 引用别名
   resolve: {
-    extensions: ['*'],
+    extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json'],
     alias: {
       '@': path.resolve(__dirname, 'src'),
       '@assets': path.resolve(__dirname, 'src/assets'),
@@ -50,13 +51,11 @@ export default defineConfig({
     https: false,
     proxy: {},
   },
-  // 生产环境去除debugger
+  // 生产环境去除debugger,console
   build: {
     terserOptions: {
       compress: {
-        // eslint-disable-next-line camelcase
         drop_console: true,
-        // eslint-disable-next-line camelcase
         drop_debugger: true,
       },
     },

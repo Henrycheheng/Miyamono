@@ -1,0 +1,61 @@
+{
+  "name": "miya-ui-react",
+  "version": "0.0.1-alpha.7.4",
+  "description": "Miya UI React",
+  "main": "index.ts",
+  "author": {
+    "email": "1184563958@qq.com",
+    "name": "Heheng Cao"
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "repository": {
+    "url": "https://github.com/Henrycheheng/Miyamono.git",
+    "directory": "/packages/react/ui"
+  },
+  "keywords": [
+    "react18",
+    "react components",
+    "react18 components",
+    "ui components",
+    "react ui components",
+    "react18 ui components"
+  ],
+  "devDependencies": {
+    "@quasar/extras": "^1.13.4",
+    "@types/react-transition-group": "^4.4.4",
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
+    "@vitejs/plugin-react": "^1.2.0",
+    "clsx": "^1.1.1",
+    "dayjs": "^1.11.0",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-mdx": "^1.17.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "casual-styles": "workspace:*",
+    "casual-types": "workspace:*",
+    "casual-ui-react": "workspace:*",
+    "casual-i18n": "workspace:*",
+    "prettier": "^2.6.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-transition-group": "^4.4.2",
+    "sass": "^1.49.9",
+    "typescript": "^4.6.3",
+    "vite": "^2.8.6"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "main": "./dist/miya-ui-react.umd.js",
+    "module": "./dist/miya-ui-react.es.js",
+    "exports": {
+      ".": {
+        "import": "./dist/miya-ui-react.es.js",
+        "require": "./dist/miya-ui-react.umd.js"
+      }
+    }
+  }
+}
