@@ -1,1 +1,0 @@
-- 利润表最后一栏是net income,有一些可以影响净利润 不会影响net income的时候,会计入到OCI中

@@ -26,7 +26,7 @@ module.exports = {
     },
   },
   // 插件
-  plugins: ['react', '@typescript-eslint', "react-hooks",'prettier'],
+  plugins: ['react', '@typescript-eslint', "react-hooks", 'prettier'],
   // 规则
   rules: {
     "react-hooks/rules-of-hooks": "error",

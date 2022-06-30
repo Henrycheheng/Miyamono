@@ -1,0 +1,24 @@
+{
+  "name": "miya-utils",
+  "description": "Miya Utils library",
+  "version": "0.0.1",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "index.ts",
+  "scripts": {
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "author": {
+    "email": "1184563958@qq.com",
+    "name": "Heheng Cao"
+  },
+  "repository": {
+    "url": "https://github.com/Henrycheheng/Miyamono.git",
+    "directory": "/packages/lib"
+  }
+}
