@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/form/input",
+  "id": "components/form/input",
+  "title": "输入框",
+  "description": "基础使用",
+  "source": "@site/docs/components/form/input.mdx",
+  "sourceDirName": "components/form",
+  "slug": "/components/form/input",
+  "permalink": "/components/form/input",
+  "draft": false,
+  "editUrl": "https://github.com/Blackman99/casual-ui/edit/main/packages/react/docs/docs/components/form/input.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "输入框",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "标签",
+    "permalink": "/components/basic/tag"
+  },
+  "next": {
+    "title": "选择器",
+    "permalink": "/components/form/select"
+  }
+}

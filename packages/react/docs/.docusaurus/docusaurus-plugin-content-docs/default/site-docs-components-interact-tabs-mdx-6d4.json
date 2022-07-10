@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/interact/tabs",
+  "id": "components/interact/tabs",
+  "title": "标签页",
+  "description": "基础使用",
+  "source": "@site/docs/components/interact/tabs.mdx",
+  "sourceDirName": "components/interact",
+  "slug": "/components/interact/tabs",
+  "permalink": "/components/interact/tabs",
+  "draft": false,
+  "editUrl": "https://github.com/Blackman99/casual-ui/edit/main/packages/react/docs/docs/components/interact/tabs.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "标签页"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "折叠器",
+    "permalink": "/components/interact/expansion"
+  },
+  "next": {
+    "title": "对话框",
+    "permalink": "/components/feedback/dialog"
+  }
+}

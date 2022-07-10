@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/form/select",
+  "id": "components/form/select",
+  "title": "选择器",
+  "description": "基础使用",
+  "source": "@site/docs/components/form/select.mdx",
+  "sourceDirName": "components/form",
+  "slug": "/components/form/select",
+  "permalink": "/components/form/select",
+  "draft": false,
+  "editUrl": "https://github.com/Blackman99/casual-ui/edit/main/packages/react/docs/docs/components/form/select.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "选择器",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "输入框",
+    "permalink": "/components/form/input"
+  },
+  "next": {
+    "title": "单选器",
+    "permalink": "/components/form/radio"
+  }
+}

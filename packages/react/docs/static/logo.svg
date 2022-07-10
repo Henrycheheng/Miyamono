@@ -1,0 +1,22 @@
+<svg viewBox="0 0 48 48" width="400px" height="400px" xmlns="http://www.w3.org/2000/svg"
+  style="font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;">
+  <defs>
+    <linearGradient id="miya" x1="0" y1="0" x2="0" y2="100%">
+      <stop stop-color="#2b30c0" offset="50%" />
+      <stop stop-color="#ff0000" offset="100%" />
+    </linearGradient>
+    <linearGradient id="ui" x1="0" y1="0" x2="50%" y2="100%">
+      <stop stop-color="transparent" offset="10%" />
+      <stop stop-color="#3337bd" offset="45%" />
+      <stop stop-color="#ff0000" offset="100%" />
+    </linearGradient>
+  </defs>
+  <text style="
+    fill: url(#miya);
+    font-size: 4px;
+    font-weight: 600;" x="212.9" y="184.469" transform="matrix(3.919832, 0, 0, 3.650356, -835.983459, -642.294189)">
+    Miya
+  </text>
+  <text style="font-size: 10.5px; fill: url(#ui);font-weight: 600;" x="31" y="30.750"
+    transform="matrix(1.43845, 0, 0, 1, -10.38193, 0.338338)">UI</text>
+</svg>

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/interact/dropdown",
+  "id": "components/interact/dropdown",
+  "title": "下拉",
+  "description": "基础使用",
+  "source": "@site/docs/components/interact/dropdown.mdx",
+  "sourceDirName": "components/interact",
+  "slug": "/components/interact/dropdown",
+  "permalink": "/components/interact/dropdown",
+  "draft": false,
+  "editUrl": "https://github.com/Blackman99/casual-ui/edit/main/packages/react/docs/docs/components/interact/dropdown.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "下拉"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "表格",
+    "permalink": "/components/data-presentation/table"
+  },
+  "next": {
+    "title": "折叠器",
+    "permalink": "/components/interact/expansion"
+  }
+}

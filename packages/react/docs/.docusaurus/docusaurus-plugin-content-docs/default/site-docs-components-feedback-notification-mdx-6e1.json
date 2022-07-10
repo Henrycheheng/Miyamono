@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/feedback/notification",
+  "id": "components/feedback/notification",
+  "title": "通知",
+  "description": "",
+  "source": "@site/docs/components/feedback/notification.mdx",
+  "sourceDirName": "components/feedback",
+  "slug": "/components/feedback/notification",
+  "permalink": "/components/feedback/notification",
+  "draft": false,
+  "editUrl": "https://github.com/Blackman99/casual-ui/edit/main/packages/react/docs/docs/components/feedback/notification.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "通知"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "对话框",
+    "permalink": "/components/feedback/dialog"
+  },
+  "next": {
+    "title": "工具提示",
+    "permalink": "/components/feedback/tooltip"
+  }
+}

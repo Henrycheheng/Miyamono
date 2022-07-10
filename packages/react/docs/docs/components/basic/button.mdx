@@ -1,0 +1,107 @@
+---
+title: 按钮
+---
+
+### 基础使用
+
+```jsx live
+function Demo() {
+  return (
+    <SpaceItems>
+      <MButton label="普通按钮" />
+      <MButton label="轮廓按钮" outlined />
+      <MButton label="禁用状态" disabled />
+      <MButton label="圆角按钮" rounded />
+      <MButton label="圆边按钮" round />
+    </SpaceItems>
+  )
+}
+```
+
+### 主题
+
+```jsx live
+<SpaceItems>
+  <MButton label="主色按钮" theme="primary" />
+  <MButton label="辅色按钮" theme="secondary" />
+  <MButton label="警告色按钮" theme="warning" />
+  <MButton label="消极色按钮" theme="negative" />
+</SpaceItems>
+```
+
+### 不同尺寸
+
+```jsx live
+<SpaceItems>
+  <MButton label="超小尺寸按钮" size="xs" />
+  <MButton label="小尺寸按钮" size="sm" />
+  <MButton label="中等尺寸钮" size="md" />
+  <MButton label="大尺寸按钮" size="lg" />
+  <MButton label="超大尺寸按钮" size="xl" />
+</SpaceItems>
+```
+
+### 块级
+
+```jsx live
+<div>
+  <div className="c-mb-md">
+    <MButton label="块级按钮" block size="lg" theme="warning" />
+  </div>
+  <div className="c-mb-md">
+    <MButton label="块级按钮" block size="lg" rounded />
+  </div>
+  <div>
+    <MButton label="块级按钮" block size="lg" round theme="negative" outlined />
+  </div>
+</div>
+```
+
+### 加载状态
+
+```jsx live
+<SpaceItems>
+  <MButton label="提交中" size="sm" loading />
+  <MButton label="提交中" loading />
+  <MButton label="提交中" size="lg" loading />
+  <MButton rounded label="提交中" loading />
+  <MButton rounded label="提交中" loading outlined />
+  <MButton round label="提交中" loading />
+  <MButton round outlined label="提交中" loading />
+</SpaceItems>
+```
+
+### 自定义加载动画
+
+```jsx live
+<SpaceItems>
+  <MButton label="提交中" loading customLoading={<CLoadingAudio />} />
+  <MButton label="提交中" outlined loading customLoading={<CLoadingCube />} />
+</SpaceItems>
+```
+
+### 图标按钮
+
+```jsx live
+<SpaceItems>
+  <MButton icon style={{ fontSize: '20px' }}>
+    <CIcon content={MdIcons.matLightbulb} />
+  </MButton>
+  <MButton icon outlined style={{ fontSize: '32px' }}>
+    <CIcon content={MdIcons.matHouse} />
+  </MButton>
+  <MButton icon outlined style={{ fontSize: '32px' }} theme="negative">
+    <CIcon content={MdIcons.matPerson} />
+  </MButton>
+  <MButton icon style={{ fontSize: '56px' }} theme="secondary">
+    <CIcon content={MdIcons.matSupervisedUserCircle} />
+  </MButton>
+  <MButton icon style={{ fontSize: '56px' }} theme="warning">
+    <CIcon content={MdIcons.matDeviceHub} />
+  </MButton>
+</SpaceItems>
+```
+
+### Props
+
+<PropTable name="MButton" typeWidth="320px" />

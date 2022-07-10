@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/basic/icon",
+  "id": "components/basic/icon",
+  "title": "图标",
+  "description": "Casual UI 的图标集成了@quasar/extras",
+  "source": "@site/docs/components/basic/icon.mdx",
+  "sourceDirName": "components/basic",
+  "slug": "/components/basic/icon",
+  "permalink": "/components/basic/icon",
+  "draft": false,
+  "editUrl": "https://github.com/Blackman99/casual-ui/edit/main/packages/react/docs/docs/components/basic/icon.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "图标"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "按钮",
+    "permalink": "/components/basic/button"
+  },
+  "next": {
+    "title": "加载中",
+    "permalink": "/components/basic/loading"
+  }
+}

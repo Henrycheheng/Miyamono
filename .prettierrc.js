@@ -6,6 +6,8 @@ module.exports = {
   printWidth: 100,
   singleQuote: true,
   semi: false,
+  quotes: true,
+  tabWidth: 2
   overrides: [
     {
       files: '*.json',

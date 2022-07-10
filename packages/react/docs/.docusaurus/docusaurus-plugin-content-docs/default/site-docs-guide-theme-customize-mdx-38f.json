@@ -1,0 +1,26 @@
+{
+  "unversionedId": "guide/theme-customize",
+  "id": "guide/theme-customize",
+  "title": "主题定制",
+  "description": "主题色",
+  "source": "@site/docs/guide/theme-customize.mdx",
+  "sourceDirName": "guide",
+  "slug": "/guide/theme-customize",
+  "permalink": "/guide/theme-customize",
+  "draft": false,
+  "editUrl": "https://github.com/Blackman99/casual-ui/edit/main/packages/react/docs/docs/guide/theme-customize.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "主题定制"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "安装",
+    "permalink": "/guide/install"
+  },
+  "next": {
+    "title": "介绍",
+    "permalink": "/components/"
+  }
+}

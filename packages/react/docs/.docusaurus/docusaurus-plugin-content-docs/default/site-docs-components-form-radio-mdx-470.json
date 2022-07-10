@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/form/radio",
+  "id": "components/form/radio",
+  "title": "单选器",
+  "description": "基础使用",
+  "source": "@site/docs/components/form/radio.mdx",
+  "sourceDirName": "components/form",
+  "slug": "/components/form/radio",
+  "permalink": "/components/form/radio",
+  "draft": false,
+  "editUrl": "https://github.com/Blackman99/casual-ui/edit/main/packages/react/docs/docs/components/form/radio.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "单选器",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "选择器",
+    "permalink": "/components/form/select"
+  },
+  "next": {
+    "title": "勾选器",
+    "permalink": "/components/form/checkbox"
+  }
+}

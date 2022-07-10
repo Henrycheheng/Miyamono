@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/form/date-picker",
+  "id": "components/form/date-picker",
+  "title": "日期选择器",
+  "description": "基础使用",
+  "source": "@site/docs/components/form/date-picker.mdx",
+  "sourceDirName": "components/form",
+  "slug": "/components/form/date-picker",
+  "permalink": "/components/form/date-picker",
+  "draft": false,
+  "editUrl": "https://github.com/Blackman99/casual-ui/edit/main/packages/react/docs/docs/components/form/date-picker.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "日期选择器"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "切换器/开关",
+    "permalink": "/components/form/toggle"
+  },
+  "next": {
+    "title": "表单&表单项",
+    "permalink": "/components/form/form-and-form-item"
+  }
+}

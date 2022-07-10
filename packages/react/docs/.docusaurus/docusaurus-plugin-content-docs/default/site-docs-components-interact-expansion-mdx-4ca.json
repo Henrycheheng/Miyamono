@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/interact/expansion",
+  "id": "components/interact/expansion",
+  "title": "折叠器",
+  "description": "基础使用",
+  "source": "@site/docs/components/interact/expansion.mdx",
+  "sourceDirName": "components/interact",
+  "slug": "/components/interact/expansion",
+  "permalink": "/components/interact/expansion",
+  "draft": false,
+  "editUrl": "https://github.com/Blackman99/casual-ui/edit/main/packages/react/docs/docs/components/interact/expansion.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "折叠器"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "下拉",
+    "permalink": "/components/interact/dropdown"
+  },
+  "next": {
+    "title": "标签页",
+    "permalink": "/components/interact/tabs"
+  }
+}

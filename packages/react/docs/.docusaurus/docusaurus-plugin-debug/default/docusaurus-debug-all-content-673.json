@@ -1,0 +1,119 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "className": "docs-version-current",
+          "path": "/",
+          "tagsPath": "/tags",
+          "editUrl": "https://github.com/Henrycheheng/Miyamono/miya-ui/edit/main/packages/react/docs/docs",
+          "editUrlLocalized": "https://github.com/Henrycheheng/Miyamono/miya-ui/edit/main/packages/react/docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "D:\\code\\component\\Miyamono\\packages\\react\\docs\\config\\sidebars.js",
+          "contentPath": "D:\\code\\component\\Miyamono\\packages\\react\\docs\\docs",
+          "contentPathLocalized": "D:\\code\\component\\Miyamono\\packages\\react\\docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "unversionedId": "components/basic/button",
+              "id": "components/basic/button",
+              "title": "按钮",
+              "description": "基础使用",
+              "source": "@site/docs/components/basic/button.mdx",
+              "sourceDirName": "components/basic",
+              "slug": "/components/basic/button",
+              "permalink": "/components/basic/button",
+              "draft": false,
+              "editUrl": "https://github.com/Henrycheheng/Miyamono/miya-ui/edit/main/packages/react/docs/docs/components/basic/button.mdx",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "按钮"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "介绍",
+                "permalink": "/components/"
+              }
+            },
+            {
+              "unversionedId": "components/index",
+              "id": "components/index",
+              "title": "介绍",
+              "description": "这里有一些随意的组件",
+              "source": "@site/docs/components/index.mdx",
+              "sourceDirName": "components",
+              "slug": "/components/",
+              "permalink": "/components/",
+              "draft": false,
+              "editUrl": "https://github.com/Henrycheheng/Miyamono/miya-ui/edit/main/packages/react/docs/docs/components/index.mdx",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "介绍"
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "按钮",
+                "permalink": "/components/basic/button"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "category",
+                "label": "组件",
+                "collapsible": true,
+                "collapsed": false,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "基础",
+                    "collapsible": true,
+                    "collapsed": false,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "components/basic/button"
+                      }
+                    ]
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "components/index"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-plugin-google-gtag": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-theme-search-algolia": {},
+  "docusaurus-plugin-sass": {},
+  "miya-components-doc": {
+    "default": {}
+  },
+  "docusaurus-theme-live-codeblock": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}
