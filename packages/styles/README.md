@@ -1,1 +1,1 @@
-## Casual UI Styles
+## Miya UI Styles

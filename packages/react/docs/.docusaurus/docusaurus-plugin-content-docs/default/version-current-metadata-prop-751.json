@@ -1,0 +1,50 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "category",
+        "label": "组件",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "type": "category",
+            "label": "基础",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "type": "link",
+                "label": "按钮",
+                "href": "/components/basic/button",
+                "docId": "components/basic/button"
+              }
+            ]
+          }
+        ],
+        "href": "/components/"
+      }
+    ]
+  },
+  "docs": {
+    "components/basic/button": {
+      "id": "components/basic/button",
+      "title": "按钮",
+      "description": "基础使用",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/index": {
+      "id": "components/index",
+      "title": "介绍",
+      "description": "这里有一些随意的组件",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

@@ -1,4 +1,3 @@
-# Casual UI Library
+# Miya UI Library
 
-Common utils used between React and Vue
-
+Common utils used between React

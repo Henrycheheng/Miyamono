@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/basic/tag",
+  "id": "components/basic/tag",
+  "title": "标签",
+  "description": "主题",
+  "source": "@site/docs/components/basic/tag.mdx",
+  "sourceDirName": "components/basic",
+  "slug": "/components/basic/tag",
+  "permalink": "/components/basic/tag",
+  "draft": false,
+  "editUrl": "https://github.com/Blackman99/casual-ui/edit/main/packages/react/docs/docs/components/basic/tag.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "标签"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "加载中",
+    "permalink": "/components/basic/loading"
+  },
+  "next": {
+    "title": "输入框",
+    "permalink": "/components/form/input"
+  }
+}

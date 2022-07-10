@@ -1,0 +1,73 @@
+{
+  "/__docusaurus/debug-ce2": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-79-f-492"
+    }
+  },
+  "/__docusaurus/debug/config-ff0": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-79-f-492"
+    }
+  },
+  "/__docusaurus/debug/content-31d": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-79-f-492"
+    },
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-d4c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-79-f-492"
+    }
+  },
+  "/__docusaurus/debug/metadata-b17": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-79-f-492"
+    }
+  },
+  "/__docusaurus/debug/registry-b86": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-79-f-492"
+    }
+  },
+  "/__docusaurus/debug/routes-957": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-79-f-492"
+    }
+  },
+  "/search-1fc": {
+    "__comp": "__comp---theme-search-page-1-a-4-d6f",
+    "__context": {
+      "plugin": "plugin---search-5-cf-56a"
+    }
+  },
+  "/-29a": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---888-f40"
+    },
+    "config": "config---5-e-9-4f3"
+  },
+  "/-d63": {
+    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__context": {
+      "plugin": "plugin---02-f-945"
+    },
+    "versionMetadata": "versionMetadata---935-fcf"
+  },
+  "/components/-268": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-556-8d5"
+  },
+  "/components/basic/button-51d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---components-basic-buttond-88-7f0"
+  }
+}

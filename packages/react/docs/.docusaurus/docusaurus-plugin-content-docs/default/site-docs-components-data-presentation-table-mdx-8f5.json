@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/data-presentation/table",
+  "id": "components/data-presentation/table",
+  "title": "表格",
+  "description": "基础使用",
+  "source": "@site/docs/components/data-presentation/table.mdx",
+  "sourceDirName": "components/data-presentation",
+  "slug": "/components/data-presentation/table",
+  "permalink": "/components/data-presentation/table",
+  "draft": false,
+  "editUrl": "https://github.com/Blackman99/casual-ui/edit/main/packages/react/docs/docs/components/data-presentation/table.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "表格"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "列表",
+    "permalink": "/components/data-presentation/list"
+  },
+  "next": {
+    "title": "下拉",
+    "permalink": "/components/interact/dropdown"
+  }
+}

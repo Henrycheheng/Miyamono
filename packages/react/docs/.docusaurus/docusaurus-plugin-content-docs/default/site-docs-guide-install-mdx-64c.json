@@ -1,0 +1,26 @@
+{
+  "unversionedId": "guide/install",
+  "id": "guide/install",
+  "title": "安装",
+  "description": "安装依赖",
+  "source": "@site/docs/guide/install.mdx",
+  "sourceDirName": "guide",
+  "slug": "/guide/install",
+  "permalink": "/guide/install",
+  "draft": false,
+  "editUrl": "https://github.com/Blackman99/casual-ui/edit/main/packages/react/docs/docs/guide/install.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "安装"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "指南",
+    "permalink": "/guide/"
+  },
+  "next": {
+    "title": "主题定制",
+    "permalink": "/guide/theme-customize"
+  }
+}

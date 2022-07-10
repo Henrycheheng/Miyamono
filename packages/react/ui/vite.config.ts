@@ -8,8 +8,8 @@ export default defineConfig({
     outDir: 'dist',
     lib: {
       entry: resolve(__dirname, './index.ts'),
-      name: 'CasualUIReact',
-      fileName: format => `casual-ui-react.${format}.js`,
+      name: 'MiyaUIReact',
+      fileName: format => `miya-ui-react.${format}.js`,
     },
     rollupOptions: {
       external: ['react', 'react-dom'],

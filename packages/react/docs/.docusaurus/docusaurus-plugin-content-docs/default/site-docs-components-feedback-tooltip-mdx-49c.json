@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/feedback/tooltip",
+  "id": "components/feedback/tooltip",
+  "title": "工具提示",
+  "description": "基础使用",
+  "source": "@site/docs/components/feedback/tooltip.mdx",
+  "sourceDirName": "components/feedback",
+  "slug": "/components/feedback/tooltip",
+  "permalink": "/components/feedback/tooltip",
+  "draft": false,
+  "editUrl": "https://github.com/Blackman99/casual-ui/edit/main/packages/react/docs/docs/components/feedback/tooltip.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "工具提示"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "通知",
+    "permalink": "/components/feedback/notification"
+  },
+  "next": {
+    "title": "全局样式工具",
+    "permalink": "/style/global-util"
+  }
+}

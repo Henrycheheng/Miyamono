@@ -1,0 +1,22 @@
+{
+  "unversionedId": "guide/index",
+  "id": "guide/index",
+  "title": "指南",
+  "description": "指南",
+  "source": "@site/docs/guide/index.mdx",
+  "sourceDirName": "guide",
+  "slug": "/guide/",
+  "permalink": "/guide/",
+  "draft": false,
+  "editUrl": "https://github.com/Blackman99/casual-ui/edit/main/packages/react/docs/docs/guide/index.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "指南"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "安装",
+    "permalink": "/guide/install"
+  }
+}

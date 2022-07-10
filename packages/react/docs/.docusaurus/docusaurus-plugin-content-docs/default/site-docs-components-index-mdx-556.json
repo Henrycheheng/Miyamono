@@ -1,0 +1,22 @@
+{
+  "unversionedId": "components/index",
+  "id": "components/index",
+  "title": "介绍",
+  "description": "这里有一些随意的组件",
+  "source": "@site/docs/components/index.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/",
+  "permalink": "/components/",
+  "draft": false,
+  "editUrl": "https://github.com/Henrycheheng/Miyamono/miya-ui/edit/main/packages/react/docs/docs/components/index.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "介绍"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "按钮",
+    "permalink": "/components/basic/button"
+  }
+}

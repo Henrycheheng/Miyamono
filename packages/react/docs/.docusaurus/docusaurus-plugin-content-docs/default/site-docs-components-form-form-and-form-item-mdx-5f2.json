@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/form/form-and-form-item",
+  "id": "components/form/form-and-form-item",
+  "title": "表单&表单项",
+  "description": "基础使用",
+  "source": "@site/docs/components/form/form-and-form-item.mdx",
+  "sourceDirName": "components/form",
+  "slug": "/components/form/form-and-form-item",
+  "permalink": "/components/form/form-and-form-item",
+  "draft": false,
+  "editUrl": "https://github.com/Blackman99/casual-ui/edit/main/packages/react/docs/docs/components/form/form-and-form-item.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "表单&表单项"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "日期选择器",
+    "permalink": "/components/form/date-picker"
+  },
+  "next": {
+    "title": "列表",
+    "permalink": "/components/data-presentation/list"
+  }
+}

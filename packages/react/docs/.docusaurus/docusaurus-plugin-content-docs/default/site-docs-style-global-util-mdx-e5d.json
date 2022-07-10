@@ -1,0 +1,26 @@
+{
+  "unversionedId": "style/global-util",
+  "id": "style/global-util",
+  "title": "全局样式工具",
+  "description": "尺寸",
+  "source": "@site/docs/style/global-util.mdx",
+  "sourceDirName": "style",
+  "slug": "/style/global-util",
+  "permalink": "/style/global-util",
+  "draft": false,
+  "editUrl": "https://github.com/Blackman99/casual-ui/edit/main/packages/react/docs/docs/style/global-util.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "全局样式工具"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "工具提示",
+    "permalink": "/components/feedback/tooltip"
+  },
+  "next": {
+    "title": "介绍",
+    "permalink": "/hooks/"
+  }
+}

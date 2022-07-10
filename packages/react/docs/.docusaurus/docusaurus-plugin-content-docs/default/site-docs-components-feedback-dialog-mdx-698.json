@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/feedback/dialog",
+  "id": "components/feedback/dialog",
+  "title": "对话框",
+  "description": "基础使用",
+  "source": "@site/docs/components/feedback/dialog.mdx",
+  "sourceDirName": "components/feedback",
+  "slug": "/components/feedback/dialog",
+  "permalink": "/components/feedback/dialog",
+  "draft": false,
+  "editUrl": "https://github.com/Blackman99/casual-ui/edit/main/packages/react/docs/docs/components/feedback/dialog.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "对话框"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "标签页",
+    "permalink": "/components/interact/tabs"
+  },
+  "next": {
+    "title": "通知",
+    "permalink": "/components/feedback/notification"
+  }
+}

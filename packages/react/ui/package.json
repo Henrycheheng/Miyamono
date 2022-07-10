@@ -16,6 +16,7 @@
   },
   "keywords": [
     "react18",
+    "react17",
     "react components",
     "react18 components",
     "ui components",
@@ -35,10 +36,10 @@
     "eslint-plugin-mdx": "^1.17.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
-    "casual-styles": "workspace:*",
-    "casual-types": "workspace:*",
-    "casual-ui-react": "workspace:*",
-    "casual-i18n": "workspace:*",
+    "miya-styles": "workspace:*",
+    "miya-types": "workspace:*",
+    "miya-ui-react": "workspace:*",
+    "miya-i18n": "workspace:*",
     "prettier": "^2.6.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -48,6 +49,7 @@
     "vite": "^2.8.6"
   },
   "license": "MIT",
+  "files": ["dist"],
   "publishConfig": {
     "main": "./dist/miya-ui-react.umd.js",
     "module": "./dist/miya-ui-react.es.js",

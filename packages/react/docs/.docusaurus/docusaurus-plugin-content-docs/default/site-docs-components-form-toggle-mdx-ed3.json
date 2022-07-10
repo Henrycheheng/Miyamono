@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/form/toggle",
+  "id": "components/form/toggle",
+  "title": "切换器/开关",
+  "description": "基础使用",
+  "source": "@site/docs/components/form/toggle.mdx",
+  "sourceDirName": "components/form",
+  "slug": "/components/form/toggle",
+  "permalink": "/components/form/toggle",
+  "draft": false,
+  "editUrl": "https://github.com/Blackman99/casual-ui/edit/main/packages/react/docs/docs/components/form/toggle.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "切换器/开关",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "勾选器",
+    "permalink": "/components/form/checkbox"
+  },
+  "next": {
+    "title": "日期选择器",
+    "permalink": "/components/form/date-picker"
+  }
+}

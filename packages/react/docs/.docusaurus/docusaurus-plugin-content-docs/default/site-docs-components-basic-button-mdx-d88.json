@@ -1,0 +1,22 @@
+{
+  "unversionedId": "components/basic/button",
+  "id": "components/basic/button",
+  "title": "按钮",
+  "description": "基础使用",
+  "source": "@site/docs/components/basic/button.mdx",
+  "sourceDirName": "components/basic",
+  "slug": "/components/basic/button",
+  "permalink": "/components/basic/button",
+  "draft": false,
+  "editUrl": "https://github.com/Henrycheheng/Miyamono/miya-ui/edit/main/packages/react/docs/docs/components/basic/button.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "按钮"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "介绍",
+    "permalink": "/components/"
+  }
+}

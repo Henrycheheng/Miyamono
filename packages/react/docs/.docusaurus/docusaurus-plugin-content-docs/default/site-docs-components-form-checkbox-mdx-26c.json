@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/form/checkbox",
+  "id": "components/form/checkbox",
+  "title": "勾选器",
+  "description": "基础使用",
+  "source": "@site/docs/components/form/checkbox.mdx",
+  "sourceDirName": "components/form",
+  "slug": "/components/form/checkbox",
+  "permalink": "/components/form/checkbox",
+  "draft": false,
+  "editUrl": "https://github.com/Blackman99/casual-ui/edit/main/packages/react/docs/docs/components/form/checkbox.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "勾选器",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "单选器",
+    "permalink": "/components/form/radio"
+  },
+  "next": {
+    "title": "切换器/开关",
+    "permalink": "/components/form/toggle"
+  }
+}

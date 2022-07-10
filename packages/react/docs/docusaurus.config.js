@@ -5,15 +5,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Casual UI - React',
+  title: 'Miya UI - React',
   tagline: '一个随意的React组件库',
-  url: 'https://casual-ui-react.donsen.site',
+  url: 'https://github.com/Henrycheheng/Miyamono.git',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'logo.svg',
   organizationName: 'Blackman99',
-  projectName: 'casual-ui',
+  projectName: 'miya-ui',
   githubHost: 'github.com',
   presets: [
     [
@@ -28,7 +28,7 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./config/sidebars.js'),
           editUrl:
-            'https://github.com/Blackman99/casual-ui/edit/main/packages/react/docs',
+            'https://github.com/Henrycheheng/Miyamono/miya-ui/edit/main/packages/react/docs',
           remarkPlugins: [
             [require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }],
             () => async ast => {
@@ -47,21 +47,21 @@ const config = {
         theme: {
           customCss: [
             require.resolve('./src/styles/doc.scss'),
-            require.resolve('casual-styles/src/index.scss'),
+            require.resolve('miya-styles/src/index.scss'),
           ],
         },
       }),
     ],
   ],
-  plugins: ['docusaurus-plugin-sass', './plugins/o-components-doc'],
+  plugins: ['docusaurus-plugin-sass', './plugins/mi-components-doc'],
   themes: ['@docusaurus/theme-live-codeblock'],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Casual UI - React',
+        title: 'Miya UI - React',
         logo: {
-          alt: 'Casual UI Logo',
+          alt: 'Miya UI Logo',
           src: 'logo.svg',
           srcDark: 'logo-dark.svg',
         },
@@ -101,7 +101,7 @@ const config = {
             ],
           },
           {
-            href: 'https://github.com/Blackman99/casual-ui.git',
+            href: 'https://github.com/Henrycheheng/Miyamono.git',
             label: 'Github',
             position: 'right',
           },
@@ -127,12 +127,12 @@ const config = {
             items: [
               {
                 label: 'Github',
-                href: 'https://github.com/Blackman99/casual-ui.git',
+                href: 'https://github.com/Henrycheheng/Miyamono.git',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Casual UI.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Miya UI.`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -145,7 +145,7 @@ const config = {
       algolia: {
         apiKey: 'e4cde0eff4725059b13ad81010ace04b',
         appId: '79D0K7AVBK',
-        indexName: 'casual-ui',
+        indexName: 'miya-ui',
         contextualSearch: false,
       },
       docs: {

@@ -1,3 +1,3 @@
-# Casual UI React Docs
+# Miya UI React Docs
 
-Casual UI React Docs Site
+Miya UI  React Docs Site
