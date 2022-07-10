@@ -6,7 +6,7 @@
   ],
   "rules": {
     "scss/no-global-function-names": null,
-    "selector-class-pattern": "^c(-[a-z]+)+(--[a-z]+(-[a-z]+)*)*$",
+    "selector-class-pattern": "^m(-[a-z]+)+(--[a-z]+(-[a-z]+)*)*$",
     "function-no-unknown": [
       true,
       {
